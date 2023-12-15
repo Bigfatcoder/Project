@@ -20,7 +20,7 @@
     font-family: "Poppins";
   }
 .header{
-    background-color: aqua;
+    background-color: #FFFFFF;
     height: 100px;
 }
 .header_wrapper{
@@ -65,7 +65,7 @@ text-decoration: none;
   background-size: 100%;
 }
 .banner-box{
-  border: solid black 1px;
+  background-color: #FFF3E3;
   width: 643px;
   height: 443px;
   margin-top: 60px;
@@ -132,15 +132,9 @@ font-weight: 700;
  border:none;
  outline: none;
 }
-
-.main{
-  background-color:bisque;
-}
-
 .theRange-title{
   text-align: center;
   color: var(--font-color, #333);
-font-family: Poppins;
 font-size: 32px;
 font-style: normal;
 font-weight: 700;
@@ -151,7 +145,6 @@ line-height: normal;
   text-align: center;
   color: var(--font-color-1, #666);
 text-align: center;
-font-family: Poppins;
 font-size: 20px;
 font-style: normal;
 font-weight: 400;
@@ -161,7 +154,7 @@ margin-bottom: 50px;
 
 .theRange-list{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .theRange-items-link{
@@ -184,10 +177,10 @@ font-weight: 700;
 line-height: normal;
 }
 .products-list{
-  display: flex;
-  gap: 32px;
-  justify-content: center;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, auto);
+  gap: 10px;
 }
 .products-content{
   padding: 16px 20px 30px 16px ;
@@ -217,9 +210,10 @@ line-height: 30px;
 letter-spacing: 0em;
 text-align: left;
 }
-.post-products{
+.post-products {
   display: flex;
   justify-content: center;
+  padding-bottom: 70px;
 }
 .Ex-products{
 width: 245px;
@@ -237,22 +231,29 @@ text-align: center;
 color: #B88E2F;
 }
 .slider-wrapper{
-  width: 1440px;
-  height: 670px;
-  top: 2763px;
+  background-color: #fcf8f3;
+  padding: 75px 112px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
-.slider-left{
-  width: 422px;
-height: 151px;
-top: 2986px;
-left: 100px;
+.slider-button{
+  padding: 12px 16px;
+  background-color: #B88E2F;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  border: none;
+  outline: none;
+  color: #ffffff;
+  margin-top: 26px;
 }
 .slider-title{
 font-size: 40px;
 font-weight: 700;
 line-height: 48px;
 letter-spacing: 0em;
-
 color: #3A3A3A;
 }
 .slider-subtitle{
@@ -261,4 +262,25 @@ font-weight: 500;
 line-height: 24px;
 letter-spacing: 0em;
 color: #616161;
+margin-top: 10px;
+}
+/* Foresee */
+.foresee-wrapper{
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 75px;
+}
+.foresee-subtitle{
+  margin-top: 75px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+}
+.foresee-title{
+  color: var(--Color-Gray-1, #3A3A3A);
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
 }
