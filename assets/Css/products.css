@@ -1,0 +1,291 @@
+* {
+    box-sizing: border-box;
+  }
+  html,
+  body {
+    scroll-behavior: smooth;
+  }
+  html {
+    font-size: 62.5%;
+  }
+  
+
+  /* Dung chung  */
+.wrapper{
+  padding:50px 113px;
+}
+  
+  body {
+    font-size: 1.6rem;
+    font-family: "Poppins";
+  }
+.header{
+    background-color: aqua;
+    height: 100px;
+}
+.header_wrapper{
+    padding: 29px 100px 30px 54px;
+
+}
+.header_content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+.nav-list{
+    display: flex;
+    gap: 75px;
+
+}
+.action-list{
+    display: flex;
+    gap: 45px;
+}
+.nav-item_link{
+color: #000;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-decoration: none;
+}
+.pointer{
+  border: solid black 5px;
+  background: #F9F1E7;
+
+}
+.pointer_box{
+  height: 100px;
+  top: 114px;
+  display: flex;
+  align-items: center;
+  margin-left: 99px;
+
+
+}
+.pointer_content{
+  display: flex;
+  gap: 45px;
+}
+.pointer_items{
+  display: flex;
+  justify-content: space-between;
+  width: 82px;
+  height: 24px;
+  top: 152px;
+  left: 99px;
+
+}
+.pointer_items p {
+width: 48px;
+height: 24px;
+top: 152px;
+left: 99px;
+font-family: Poppins;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+color: #9F9F9F;
+}
+.pointer_items img{
+  width: 20px;
+height: 20px;
+top: 154px;
+left: 287px;
+padding: 6px, 3px, 6px, 3px;
+rotate: -90 deg;
+
+}
+.pointer_items_name{
+  width: 142px;
+  height: 37px;
+  top: 145px;
+  left: 312px;
+}
+.pointer_items_name{
+  width: 108px;
+  height: 24px;
+  top: 151px;
+  left: 346px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000000;
+}
+.Products{
+  top: 211px;
+  background: #FFFFFF;
+
+}
+.Products_box{
+  width: 1000px;
+  height: 730px;
+  top: 246px;
+  left: 99px;
+  padding: 35px 100px 55px 100px;
+  display: flex;
+}
+.left_side{
+  width: 76px;
+height: 416px;
+top: 246px;
+left: 99px;
+
+}
+.left_side img{
+  margin: 16px 0px;
+}
+.centre{
+  width: 481px;
+  height: 500px;
+  top: 246px;
+  left: 171px;
+  margin-right: 82px;
+}
+.right_side{
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.title{
+height: 63px;
+top: 246px;
+left: 735px;
+font-family: Poppins;
+font-size: 42px;
+font-weight: 400;
+line-height: 63px;
+letter-spacing: 0em;
+text-align: left;
+color: #000000;
+}
+.Price{
+  width: 173px;
+  height: 36px;
+  top: 309px;
+  left: 735px;
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #9F9F9F;
+}
+.Ratings{
+  display: flex;
+}
+.star-ratings{
+  width: 124px;
+height: 20px;
+top: 360px;
+left: 734px;
+margin-right: 18px;
+}
+
+.des{
+  width: 424px; height: 80px;
+  color: #000;
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.size img{
+  padding: 15px 10px 0px 0px;
+}
+.color img{
+  padding: 15px 10px 10px 0px;
+}
+.hr{
+  width: 50%;
+}
+.action_order{
+  display:flex;
+  flex-direction: row;
+  gap:12px;
+}
+.order_submit{
+  width: 215px;
+  padding: 17px 48px;
+  background-color: #ffffff;
+  border: 1px solid #000;
+  border-radius: 15px;
+  transition: ease-in .2s;
+}
+
+.order_submit:hover{
+  background-color: #F9F1E7;
+}
+.Code_box{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  display: flex; 
+  color: #9F9F9F;
+  gap: 15px;
+}
+.divi{
+border: 1px solid #D9D9D9;
+}
+.Information{
+  text-align: center;
+}
+.info_nav{
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+
+}
+.desc{
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000000;
+}
+.info{
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #9F9F9F;
+}
+/* Cần sửa */
+.Description{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: justified;
+  color: #9F9F9F;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.Description p{
+  width: 1026px;
+  height: 48px;
+  top: 1163px;
+  left: 207px
+}
+.pics img{
+  border-radius: 10px;
+  background: #D9D9D9;
+}

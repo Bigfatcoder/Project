@@ -1,0 +1,264 @@
+* {
+    box-sizing: border-box;
+  }
+  html,
+  body {
+    scroll-behavior: smooth;
+  }
+  html {
+    font-size: 62.5%;
+  }
+  
+
+  /* Dung chung  */
+.wrapper{
+  padding:50px 113px;
+}
+  
+  body {
+    font-size: 1.6rem;
+    font-family: "Poppins";
+  }
+.header{
+    background-color: aqua;
+    height: 100px;
+}
+.header_wrapper{
+    padding: 29px 100px 30px 54px;
+
+}
+.header_content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+.nav-list{
+    display: flex;
+    gap: 75px;
+
+}
+.theRange-items-img{
+  width: 381px;height: 480px;
+}
+.action-list{
+    display: flex;
+    gap: 45px;
+}
+.nav-item_link{
+color: #000;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-decoration: none;
+}
+.banner{
+  height: 655px;
+  border: none;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  background-image: url(../img/body/scandinavian-interior-mockup-wall-decal-background\ 1\ \(1\).png);
+  background-position: center;
+  background-repeat: none;
+  background-size: 100%;
+}
+.banner-box{
+  border: solid black 1px;
+  width: 643px;
+  height: 443px;
+  margin-top: 60px;
+  margin-right: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner-content{
+  border: none;
+  width: 561px;
+  height: 344px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+#sub-title{
+  font-weight: 600;
+  font-size: 16px;
+  color: #333333;
+  line-height: 24px;
+}
+#title2{
+  height: fit-content;
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 65px;
+  color: #B88E2F;
+}
+#title1{
+  width: 83%;
+height: 127px;
+  height: fit-content;
+  margin-bottom: 0px;
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 65px;
+  color: #B88E2F;
+}
+#text{
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #333333;
+}
+.slider-box{
+  border-radius: 10px;
+background: #FFF3E3;
+border:none;
+}
+.btn{
+  width: 222px;
+  height: 74px;
+  background-color: #B88E2F;
+  padding: 25px 72px 25px 72px;
+  gap: 10px;
+  font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+ line-height: normal;
+ color: #fff;
+ border:none;
+ outline: none;
+}
+
+.main{
+  background-color:bisque;
+}
+
+.theRange-title{
+  text-align: center;
+  color: var(--font-color, #333);
+font-family: Poppins;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.theRange-subtitle{
+  text-align: center;
+  color: var(--font-color-1, #666);
+text-align: center;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-bottom: 50px;
+}
+
+.theRange-list{
+  display: flex;
+  justify-content: space-between;
+}
+
+.theRange-items-link{
+  text-decoration: none;
+  color: var(--font-color, #333);
+text-align: center;
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.Our-products-title{
+  text-align: center;
+  color: var(--font-color, #333);
+font-family: Poppins;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.products-list{
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.products-content{
+  padding: 16px 20px 30px 16px ;
+  background-color:#F4F5F7;
+}
+.products-name{
+font-family: Poppins;
+font-size: 24px;
+font-weight: 600;
+line-height: 29px;
+letter-spacing: 0em;
+text-align: left;
+}
+.products-desc{
+font-family: Poppins;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+}
+.products-price{
+font-family: Poppins;
+font-size: 20px;
+font-weight: 600;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+}
+.post-products{
+  display: flex;
+  justify-content: center;
+}
+.Ex-products{
+width: 245px;
+height: 48px;
+top: 2646px;
+left: 598px;
+border: 1px;
+background-color: #fff;
+border: 1px solid #B88E2F;
+font-size: 16px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: center;
+color: #B88E2F;
+}
+.slider-wrapper{
+  width: 1440px;
+  height: 670px;
+  top: 2763px;
+}
+.slider-left{
+  width: 422px;
+height: 151px;
+top: 2986px;
+left: 100px;
+}
+.slider-title{
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0em;
+
+color: #3A3A3A;
+}
+.slider-subtitle{
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0em;
+color: #616161;
+}
