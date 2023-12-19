@@ -17,6 +17,4 @@ fetch("../assets/js/Test.json")
    </div>`
     })
 }
-
-  
-  );
+);

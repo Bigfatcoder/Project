@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(233, 173, 44);
+}
+.sign_up{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.text{
+    height: 40%;
+    padding-top: 50px;
+    color: black;
+}
+.box{
+    width: 500px;
+    height: fit-content ;
+    background-color: white;
+    padding: 30px 15px;
+    border-radius: 15px;
+    border: 1px solid black;
+    box-shadow: 5px 10px 18px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.label{
+    font-weight: bold;
+}
+input{
+    border: solid 1px;
+    outline: none;
+    padding: 10px;
+    width: 100%;
+    margin: 10px 0px;
+    border-bottom: 2px solid black;
+}
+select{
+    height: 30px;
+    margin-bottom: 10px;
+}
+button{
+    border: none;
+    width: 100%;
+    padding: 10px;
+    background-color: black;
+    font-size: 20px;
+    color: white;
+    border-radius: 15px;
+    margin: 20px 0;
+    margin-bottom: 5px;
+}
+.box p{
+    font-size: 13px;
+    color: red;
+    font-family: 'KoHo', sans-serif;
+}
+.box label{
+    font-size: 14px;
+    font-weight: 100;
+    margin: none;
+}
